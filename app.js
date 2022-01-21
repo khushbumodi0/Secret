@@ -65,7 +65,7 @@ const password = req.body.password;
            if(foundUser.password === password) {
              res.render("secrets");
            } else{
-             res.send("Password is incorrect. Please try again later!");
+             res.send("Password is incorrect. Please try again later!!");
            }
          }
        }
